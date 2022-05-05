@@ -33,10 +33,10 @@ gradlePlugin {
 
         curseforgegradle {
 
-            id = project.group
+            id = "net.darkhax.curseforgegradle"
             displayName = project.archiveBaseName
             description = project.description
-            implementationClass = "${project.group}.${project.archiveBaseName}Plugin"
+            implementationClass = "net.darkhax.curseforgegradle.CurseForgeGradlePlugin"
         }
     }
 }
